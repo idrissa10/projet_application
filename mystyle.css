@@ -1,0 +1,88 @@
+#menu{
+	text-align: center;
+}
+#menu,#menu ul{
+	margin: 0px;
+	padding:0px;
+font-size: 0px;
+list-style-type: none; 
+}
+#menu li{
+	display: inline-block;
+	font-size: 16px; 
+	position: relative;
+}
+#menu a{
+	display: block;
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #012; 
+	color: white;
+	text-decoration: none;
+	font-family: Tahoma;
+}
+#menu li ul{
+	position: absolute;
+	left: -5000px;
+}
+
+#menu li:hover > ul{
+	left: 0px;
+
+}
+#menu li li:hover > ul{
+	left:130px;
+     top:5px;
+}
+#menu a:hover{
+	color:#656;
+	background-color:#cec;  
+
+} 
+#menu > li{
+	border-right: 1px solid red;
+}
+#menu li:last-child{
+	border: none; 
+
+}/*
+ul#menu {
+width : 600px;
+height : 30px;
+margin : 2em 0 0 0;
+padding : 0;
+background-color : #f4f9fd;
+border : 1px dashed black;
+list-style-type : none;
+} /*
+l#menu li {
+padding : 0 0.5em;
+line-height : 30px;
+}
+u
+l#menu li {
+float : left;
+border-right : 1px dashed black;
+} u
+l#menuli {
+float : right;
+border-left : 1px dashed black;
+} u
+l#menu a {
+color : black;
+text-decoration : none;
+padding : 0 0.5em;
+font : 0.8em "Trebuchet MS";
+} u
+l#menu a:hover { text-decoration : underline; }
+ul#menu a img {
+border : none;
+padding : 0 0.3em;
+}
+.spacer{
+	margin-top: 40px;
+
+}
+
